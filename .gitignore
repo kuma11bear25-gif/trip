@@ -3,6 +3,7 @@ dist/
 .DS_Store
 *.log
 *.tsbuildinfo
+.vite/
 
 # runtime data (user content, not source)
 server/data/*.json
