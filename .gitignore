@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+*.tsbuildinfo
+.vite/
+
+# runtime data (user content, not source)
+server/data/*.json
+!server/data/.gitkeep
+server/uploads/*
+!server/uploads/.gitkeep
+
+.env
+.env.local
